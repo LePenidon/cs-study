@@ -66,9 +66,9 @@ class CacheL1:
         print(f"--- ESTADO DA CACHE L1: {list(self.linhas.keys())} ---")
 
 
-# ==========================================
+# =========================================
 # EXECUTANDO A SIMULAÇÃO
-# ==========================================
+# =========================================
 ram = MemoriaPrincipal()
 cache = CacheL1(capacidade=3)  # Nossa Cache só cabe 3 itens!
 
